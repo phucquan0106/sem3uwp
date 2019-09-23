@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="ScrollViewerDemo1.Pages.Register"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ScrollViewerDemo1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ScrollViewer Margin="20">
+            <StackPanel Margin="50" Padding="10" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <TextBlock>First Name:</TextBlock>
+                <TextBox x:Name="txtFirstName"></TextBox>
+                <TextBlock>Last Name:</TextBlock>
+                <TextBox x:Name="txtLastName"></TextBox>
+                <TextBlock>Password:</TextBlock>
+                <PasswordBox x:Name="txtPassword"></PasswordBox>
+                <TextBlock>Confirm Password:</TextBlock>
+                <PasswordBox x:Name="txtConfirmPassword"></PasswordBox>
+                <TextBlock>Email:</TextBlock>
+                <TextBox x:Name="txtEmail"></TextBox>
+                <TextBlock>Phone:</TextBlock>
+                <TextBox x:Name="txtPhone"></TextBox>
+                <TextBlock>Address:</TextBlock>
+                <TextBox x:Name="txtAddress"></TextBox>
+                <TextBlock>Introduction:</TextBlock>
+                <TextBox x:Name="txtIntroduction"></TextBox>
+                <TextBlock>Gender:</TextBlock>
+                <TextBox x:Name="txtGender"></TextBox>
+                <TextBlock>Birthday:</TextBlock>
+                <TextBox x:Name="txtBirthday"></TextBox>
+                <TextBlock>Avatar:</TextBlock>
+                <TextBox x:Name="txtAvatar"></TextBox>
+                <Button x:Name="btnSubmit" Click="BtnSubmit_Click">Submit</Button>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
