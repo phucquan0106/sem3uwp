@@ -8,7 +8,15 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock>Login    Login</TextBlock>
-    </Grid>
+    <ScrollViewer Margin="20">
+        <StackPanel Margin="50" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBlock>Email:</TextBlock>
+            <TextBox x:Name="Email"></TextBox>
+            <TextBlock>Password</TextBlock>
+            <PasswordBox x:Name="Password"></PasswordBox>
+            <Button Click="ButtonBase_LoginOnClick">Login</Button>
+            <Button Click="ButtonBase_ResetOnClick">Reset</Button>
+        </StackPanel>
+    </ScrollViewer>
+    
 </Page>

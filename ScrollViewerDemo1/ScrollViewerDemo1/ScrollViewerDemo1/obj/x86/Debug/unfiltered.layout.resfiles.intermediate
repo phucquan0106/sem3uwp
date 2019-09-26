@@ -9,6 +9,8 @@ App.xbf
 MainPage.xbf
 Pages\Login.xbf
 Pages\MasterLayout.xbf
+Pages\MyInfo.xbf
+Pages\Naview.xbf
 Pages\Register.xbf
 ScrollViewerDemo1.xr.xml
 Properties\Default.rd.xml

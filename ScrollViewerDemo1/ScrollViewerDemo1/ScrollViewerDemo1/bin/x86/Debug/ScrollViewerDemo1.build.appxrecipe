@@ -82,6 +82,12 @@
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\MasterLayout.xbf">
       <PackagePath>Pages\MasterLayout.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\MyInfo.xbf">
+      <PackagePath>Pages\MyInfo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\Naview.xbf">
+      <PackagePath>Pages\Naview.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\Register.xbf">
       <PackagePath>Pages\Register.xbf</PackagePath>
     </AppxPackagedFile>

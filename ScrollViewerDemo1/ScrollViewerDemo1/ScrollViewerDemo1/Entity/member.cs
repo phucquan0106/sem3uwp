@@ -8,6 +8,8 @@ namespace ScrollViewerDemo1.Entity
 {
     class Member
     {
+        public string id { get; set; }
+
         public string firstName { get; set; }
 
         public string lastName { get; set; }
@@ -26,7 +28,9 @@ namespace ScrollViewerDemo1.Entity
 
         public string email { get; set; }
 
-        public string passWord { get; set; }
+        public string password { get; set; }
+
+        public string token { get; set; }
 
     }
 }

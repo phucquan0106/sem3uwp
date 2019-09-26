@@ -110,3 +110,13 @@ C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDem
 C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\Register.xaml
 C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\Register.xbf
 C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\Register.xbf
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\Naview.g.i.cs
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\Naview.g.cs
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\Naview.xaml
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\Naview.xbf
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\Naview.xbf
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\MyInfo.xbf
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\MyInfo.g.i.cs
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\MyInfo.g.cs
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\MyInfo.xaml
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\MyInfo.xbf

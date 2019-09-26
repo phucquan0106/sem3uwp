@@ -18,6 +18,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Newtonsoft.Json.Linq;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -39,27 +40,33 @@ namespace ScrollViewerDemo1.Pages
         {
             var member = new Member
             {
-                firstName = "Dao",
-                lastName = "Hung",
-                passWord = "123456",
-                address = "Hai Ba Trung",
-                avatar = "https://i.ytimg.com/vi/MBtJdkiEhBk/maxresdefault.jpg",
-                birthday = "2000-12-26",
-                email = "hungdx@gmail.com",
-                gender = 1,
-                introduction = "Hello T1807E",
-                phone = "091234567"
+                firstName = txtFirstName.Text,
+                lastName = txtLastName.Text,
+                password = txtPassword.Password.ToString(),
+                address = txtAddress.Text,
+                avatar = txtAvatar.Text,
+                birthday = txtBirthday.Text,
+                email = txtEmail.Text,
+                gender = Int32.Parse(txtGender.Text),
+                introduction = txtIntroduction.Text,
+                phone = txtPhone.Text
 
             };
             //Debug.WriteLine(JsonConvert.SerializeObject(member));
-            //HttpClient httpClient = new HttpClient();
-            //Debug.WriteLine(JsonConvert.SerializeObject(member));
+            Debug.WriteLine(JsonConvert.SerializeObject(member));
             var httpClient = new HttpClient();
+            //httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + token);
             HttpContent content = new StringContent(JsonConvert.SerializeObject(member), Encoding.UTF8,
                 "application/json");
             Task<HttpResponseMessage> httpRequestMessage = httpClient.PostAsync(ApiUrl, content);
             String responseContent = httpClient.PostAsync(ApiUrl, content).Result.Content.ReadAsStringAsync().Result;
-            Debug.WriteLine(responseContent);
+            Debug.WriteLine("Response: " + responseContent);
+
+            Member resMember = JsonConvert.DeserializeObject<Member>(responseContent);
+            JObject resJObject = JObject.Parse(responseContent);
+            Debug.WriteLine(resMember.email);
+            Debug.WriteLine(resJObject["email"]);
+            
         }
     }
 }
