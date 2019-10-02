@@ -76,6 +76,9 @@
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\FileHandle.xbf">
+      <PackagePath>Pages\FileHandle.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\Login.xbf">
       <PackagePath>Pages\Login.xbf</PackagePath>
     </AppxPackagedFile>

@@ -33,6 +33,9 @@
                 <TextBox x:Name="txtBirthday"></TextBox>
                 <TextBlock>Avatar:</TextBlock>
                 <TextBox x:Name="txtAvatar"></TextBox>
+                <Image x:Name="Avatar" Width="200" Height="200"></Image>
+                <TextBox x:Name="AvatarUrl"></TextBox>
+                <Button Click="ButtonBase_OnClick">CAPTURE</Button>
                 <Button x:Name="btnSubmit" Click="BtnSubmit_Click">Submit</Button>
             </StackPanel>
         </ScrollViewer>

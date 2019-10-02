@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-25T13:34:15.204</Modified>
+      <Modified>2019-09-27T14:02:33.084</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\ScrollViewerDemo1.exe">
       <PackagePath>entrypoint\ScrollViewerDemo1.exe</PackagePath>
-      <Modified>2019-09-25T13:34:14.596</Modified>
+      <Modified>2019-09-27T14:02:32.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\oishi\.nuget\packages\newtonsoft.json\12.0.3-beta1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -90,35 +90,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\ScrollViewerDemo1.xr.xml">
       <PackagePath>ScrollViewerDemo1.xr.xml</PackagePath>
-      <Modified>2019-09-25T13:30:49.673</Modified>
+      <Modified>2019-09-27T13:51:45.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-09-25T13:34:14.273</Modified>
+      <Modified>2019-09-27T14:02:32.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-09-25T13:34:14.273</Modified>
+      <Modified>2019-09-27T14:02:32.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\FileHandle.xbf">
+      <PackagePath>Pages\FileHandle.xbf</PackagePath>
+      <Modified>2019-09-27T14:02:32.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\Login.xbf">
       <PackagePath>Pages\Login.xbf</PackagePath>
-      <Modified>2019-09-25T13:34:14.274</Modified>
+      <Modified>2019-09-27T14:02:32.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\MasterLayout.xbf">
       <PackagePath>Pages\MasterLayout.xbf</PackagePath>
-      <Modified>2019-09-25T13:34:14.274</Modified>
+      <Modified>2019-09-27T14:02:32.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\MyInfo.xbf">
       <PackagePath>Pages\MyInfo.xbf</PackagePath>
-      <Modified>2019-09-25T13:34:14.275</Modified>
+      <Modified>2019-09-27T14:02:32.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\Naview.xbf">
       <PackagePath>Pages\Naview.xbf</PackagePath>
-      <Modified>2019-09-25T13:34:14.275</Modified>
+      <Modified>2019-09-27T14:02:32.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\Register.xbf">
       <PackagePath>Pages\Register.xbf</PackagePath>
-      <Modified>2019-09-25T13:34:14.275</Modified>
+      <Modified>2019-09-27T14:02:32.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -126,11 +130,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-09-25T11:36:19.553</Modified>
+      <Modified>2019-09-27T11:47:26.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Core\ScrollViewerDemo1.exe">
       <PackagePath>ScrollViewerDemo1.exe</PackagePath>
-      <Modified>2019-09-25T13:34:15.198</Modified>
+      <Modified>2019-09-27T14:02:33.077</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

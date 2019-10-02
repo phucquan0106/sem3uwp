@@ -44,6 +44,7 @@ namespace ScrollViewerDemo1.Pages
             ("register", typeof(Register)),
             ("login", typeof(Login)),
             ("showinformation", typeof(MyInfo)),
+            ("file", typeof(FileHandle)),
         };
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)

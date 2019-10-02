@@ -33,6 +33,7 @@
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7FC;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+                <NavigationViewItem Tag="file" Icon="AddFriend" Content="File Handle"/>
                 <NavigationViewItem Tag="register" Content="Register">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7FC;"/>

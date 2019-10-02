@@ -120,3 +120,8 @@ C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDem
 C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\MyInfo.g.cs
 C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\MyInfo.xaml
 C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\MyInfo.xbf
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\bin\x86\Debug\Pages\FileHandle.xbf
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\FileHandle.g.i.cs
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\FileHandle.g.cs
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\FileHandle.xaml
+C:\OishiWorkspace\Upgrade\Apt\Sem3\uwp\sem3uwp\ScrollViewerDemo1\ScrollViewerDemo1\ScrollViewerDemo1\obj\x86\Debug\Pages\FileHandle.xbf

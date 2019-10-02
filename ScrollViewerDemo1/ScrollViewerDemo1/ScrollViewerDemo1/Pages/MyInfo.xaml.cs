@@ -16,6 +16,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Newtonsoft.Json;
 using ScrollViewerDemo1.Entity;
+using ScrollViewerDemo1.Services;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -34,18 +35,23 @@ namespace ScrollViewerDemo1.Pages
             HttpClient httpClient = new HttpClient();
             this.InitializeComponent();
 
-            Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
-            Windows.Storage.StorageFile sampleFile = storageFolder.GetFileAsync("token1.txt").GetAwaiter().GetResult();
+            MemberServiceImp memberServiceImp = new MemberServiceImp();
+            content.Text = memberServiceImp.FormGetInfo(getApi);
 
-            string text = Windows.Storage.FileIO.ReadTextAsync(sampleFile).GetAwaiter().GetResult();
+            //Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+            //Windows.Storage.StorageFile sampleFile = storageFolder.GetFileAsync("token1.txt").GetAwaiter().GetResult();
 
-            httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + text);
+            //string text = Windows.Storage.FileIO.ReadTextAsync(sampleFile).GetAwaiter().GetResult();
 
-            var httpRequestMessage = httpClient.GetAsync(getApi);
-            var getResult = httpRequestMessage.Result.Content.ReadAsStringAsync().Result;
-            Member user = JsonConvert.DeserializeObject<Member>(getResult);
+            //httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + text);
 
-            content.Text = getResult;
+            //var httpRequestMessage = httpClient.GetAsync(getApi);
+            //var getResult = httpRequestMessage.Result.Content.ReadAsStringAsync().Result;
+            //Member user = JsonConvert.DeserializeObject<Member>(getResult);
+
+            //content.Text = getResult;
+
+
 
         }
 

@@ -19,6 +19,7 @@ using Windows.UI.Xaml.Navigation;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using ScrollViewerDemo1.Entity;
+using ScrollViewerDemo1.Services;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -39,12 +40,12 @@ namespace ScrollViewerDemo1.Pages
 
         private void ButtonBase_LoginOnClick(object sender, RoutedEventArgs e)
         {
-            var memberLogin = new Member
+            var memberLogin = new User
             {
                 email = Email.Text,
                 password = Password.Password,
             };
-            var httpClient = new HttpClient();
+            //var httpClient = new HttpClient();
             //HttpContent authenticateContent = new StringContent(JsonConvert.SerializeObject(member), Encoding.UTF8, "application/json");
             //Task<HttpResponseMessage> httpRequestMessage = httpClient.PostAsync(api, authenticateContent);
             //var jsonResult = httpRequestMessage.Result.Content.ReadAsStringAsync().Result;
@@ -58,20 +59,24 @@ namespace ScrollViewerDemo1.Pages
 
             //Frame.Navigate(typeof(MyInfo), httpClient);
             ////Frame.Navigate(typeof(NavigationView), httpClient);
-            var dataContent = new StringContent(JsonConvert.SerializeObject(memberLogin),
-                Encoding.UTF8, "application/json");
-            HttpClient client = new HttpClient();
-            var responseContent = client.PostAsync(LOGIN_URL, dataContent).Result.Content.ReadAsStringAsync().Result;
-            JObject jsonJObject = JObject.Parse(responseContent);
-            Debug.WriteLine(jsonJObject["token"]);
-            
-            Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
-            Windows.Storage.StorageFile sampleFile = storageFolder.CreateFileAsync("token1.txt",
-                    Windows.Storage.CreationCollisionOption.ReplaceExisting).GetAwaiter().GetResult();
-            //Windows.Storage.StorageFile sampleFile = await storageFolder.GetFileAsync("token1.txt");
+            //=======
+            //var dataContent = new StringContent(JsonConvert.SerializeObject(memberLogin),
+            //    Encoding.UTF8, "application/json");
+            //HttpClient client = new HttpClient();
+            //var responseContent = client.PostAsync(LOGIN_URL, dataContent).Result.Content.ReadAsStringAsync().Result;
+            //JObject jsonJObject = JObject.Parse(responseContent);
+            //Debug.WriteLine(jsonJObject["token"]);
 
-            Windows.Storage.FileIO.WriteTextAsync(sampleFile, jsonJObject["token"].ToString()).GetAwaiter().GetResult();
-            Debug.WriteLine(sampleFile.Path);
+            //Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+            //Windows.Storage.StorageFile sampleFile = storageFolder.CreateFileAsync("token1.txt",
+            //        Windows.Storage.CreationCollisionOption.ReplaceExisting).GetAwaiter().GetResult();
+            ////Windows.Storage.StorageFile sampleFile = await storageFolder.GetFileAsync("token1.txt");
+
+            //Windows.Storage.FileIO.WriteTextAsync(sampleFile, jsonJObject["token"].ToString()).GetAwaiter().GetResult();
+            //Debug.WriteLine(sampleFile.Path);
+
+            MemberServiceImp memberServiceImp = new MemberServiceImp();
+            memberServiceImp.FormLogin(memberLogin, LOGIN_URL);
         }
 
         private void ButtonBase_ResetOnClick(object sender, RoutedEventArgs e)
