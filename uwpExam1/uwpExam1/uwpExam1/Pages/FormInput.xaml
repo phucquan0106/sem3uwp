@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="uwpExam1.Pages.FormInput"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:uwpExam1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <ScrollViewer Margin="20">
+            <StackPanel Margin="50" Padding="10" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <TextBlock>Name:</TextBlock>
+                <TextBox x:Name="txtName"></TextBox>
+                <TextBlock x:Name="errName" Visibility="Collapsed"></TextBlock>
+                <TextBlock>Description:</TextBlock>
+                <TextBox x:Name="txtDescription"></TextBox>
+                <TextBlock>Singer:</TextBlock>
+                <TextBox x:Name="txtSinger"></TextBox>
+                <TextBlock>Author:</TextBlock>
+                <TextBox x:Name="txtAuthor"></TextBox>
+                <TextBlock>Thumbnail:</TextBlock>
+                <TextBox x:Name="txtThumbnail"></TextBox>
+                <TextBlock x:Name="errThumbnail" Visibility="Collapsed"></TextBlock>
+                <TextBlock>Link:</TextBlock>
+                <TextBox x:Name="txtLink"></TextBox>
+                <TextBlock x:Name="errLink" Visibility="Collapsed"></TextBlock>
+                <Button x:Name="btnSubmit" Click="BtnSubmit_OnClick">Submit</Button>
+                <Button x:Name="btnViewSong" Click="BtnViewSong_OnClick">View List Song</Button>
+                <TextBlock x:Name="content1"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
