@@ -25,6 +25,10 @@ using Windows.UI.Xaml.Navigation;
 using uwpExam1.Entities;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using RestSharp;
+using System.Collections;
+using JsonArray = Windows.Data.Json.JsonArray;
+using JsonObject = RestSharp.JsonObject;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -70,11 +74,14 @@ namespace uwpExam1.Pages
 
         }
 
+        
 
-        private void BtnViewSong_OnClick(object sender, RoutedEventArgs e)
+        public void BtnViewSong_OnClick(object sender, RoutedEventArgs e)
         {
-            //Frame rootFrame = Window.Current.Content as Frame;
-            //rootFrame.Navigate(typeof(ListSong));
+            Frame rootFrame = Window.Current.Content as Frame;
+            rootFrame.Navigate(typeof(ListSong));
+
+
 
         }
     }

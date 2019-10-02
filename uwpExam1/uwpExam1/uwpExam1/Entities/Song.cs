@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace uwpExam1.Entities
 {
-    class Song
+    public class Song
     {
         public string id { get; set; }
 
